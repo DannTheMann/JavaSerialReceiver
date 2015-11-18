@@ -15,7 +15,7 @@ import java.util.Date;
 public class JavaArduinoSerialReceiver {
 
     private static final String ARDUINO_COM_PORT = "COM5";
-    private static final String FRDM_K64F_COM_PORT = "COM4";
+    private static final String FRDM_K64F_COM_PORT = "COM30";
     
     /**
      * @param args the command line arguments

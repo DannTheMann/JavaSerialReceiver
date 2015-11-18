@@ -58,13 +58,13 @@ public class SamplingDevice {
 
         /* Calculate the range of 50 samples */
         int i = 50;
-        int max = Math.abs(data[0]);
+        int max = data[0];
         int min = max;
         int range;
         int j;
 
         while (i-- > 1) {
-            j = Math.abs(data[i]);
+            j = data[i];
             if (j > max) {
                 max = j;
             }
