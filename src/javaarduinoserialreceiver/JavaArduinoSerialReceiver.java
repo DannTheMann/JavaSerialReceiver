@@ -23,7 +23,7 @@ public class JavaArduinoSerialReceiver {
     public static void main(String[] args) throws Exception {
         
         //SamplingDevice arduino = new SamplingDevice("H:\\University\\Test\\", ARDUINO_COM_PORT, "Ardunio");
-        SamplingDevice mbed = new SamplingDevice("H:\\University\\Test\\", FRDM_K64F_COM_PORT, "FRDM_K64F_MBED");
+        SamplingDevice mbed = new SamplingDevice("Z:\\Test\\18.11.2015\\", FRDM_K64F_COM_PORT, "FRDM_K64F_MBED");
         
         //int a = 1;
         int b = 1;

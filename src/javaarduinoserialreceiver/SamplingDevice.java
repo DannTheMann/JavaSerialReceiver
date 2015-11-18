@@ -74,7 +74,7 @@ public class SamplingDevice {
         }
         range = max - min;
 
-        bw.append(", ").append(Integer.toString(min));
+        bw.append(", ").append(Integer.toString(range)).append(", ").append(Integer.toString(max)).append(", ").append(Integer.toString(min));
 
         for (int s : data) {
             bw.append(", ").append(Integer.toString(s));
